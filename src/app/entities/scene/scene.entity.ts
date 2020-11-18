@@ -5,11 +5,9 @@ import {Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColu
 
 @Entity()
 export class Pglyt {
-  @PrimaryGeneratedColumn()
-  plid!: number;
 
-  @Column()
-  pluid!: string;
+  @PrimaryGeneratedColumn()
+  pluid!: number;
 
   @Column()
   ppluid!: string;
